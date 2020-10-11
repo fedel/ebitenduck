@@ -26,7 +26,7 @@ func NewSprite(image *ebiten.Image) *Sprite {
 	}
 }
 
-// MakeSprite Alloc a new Sprite in the heap
+// MakeSprite Alloc a new Sprite in the stack
 func MakeSprite(image *ebiten.Image) Sprite {
 	return Sprite{
 		x:      0,
